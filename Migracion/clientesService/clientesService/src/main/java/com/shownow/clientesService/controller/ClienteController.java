@@ -31,18 +31,18 @@ public class ClienteController {
     }
 
     @GetMapping("/{id}")
-    private Cliente obtenerCliente(@PathVariable Long id){
-        return clienteService.buscarPorId(0);
+    private Cliente obtenerCliente(@PathVariable int id){
+        return clienteService.buscarPorId(id);
     }
 
     @PutMapping("/{id}")
-    private void actualizarCliente(@PathVariable Long id, @RequestBody Cliente cliente){
+    private void actualizarCliente(@PathVariable int id, @RequestBody Cliente cliente){
         clienteService.actualizarCliente(cliente);
     }
 
     @DeleteMapping("/{id}")
-    private void eliminarCliente(@PathVariable long id){
-        clienteService.eliminarCliente(0);
+    private void eliminarCliente(@PathVariable int id){
+        clienteService.eliminarCliente(int);
     }
 
 }
