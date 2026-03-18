@@ -73,6 +73,18 @@ public class ClienteRepository {
         return cliente;
 
     }
+
+    public ClienteRepository(){
+
+        listaClientes.add(new Cliente(1, "Benjamin", "benjamin@gmail.com", "3235653224"));
+        listaClientes.add(new Cliente(2, "ALex", "Alex@gmail.com", "3546453224"));
+        listaClientes.add(new Cliente(3, "Camila", "camila@gmail.com", "5473553224"));
+        listaClientes.add(new Cliente(4, "Alejandrina", "alejadrina@gmail.com", "4363464353224"));
+        listaClientes.add(new Cliente(5, "Esteban", "estaben@gmail.com", "3466346224"));
+        listaClientes.add(new Cliente(6, "Miguel", "miguel@gmail.com", "68346224"));
+        listaClientes.add(new Cliente(7, "javiera", "javiera@gmail.com", "943893253224"));
+        listaClientes.add(new Cliente(8, "emilia", "emilia@gmail.com", "48532224"));
+    }
     
 
 
