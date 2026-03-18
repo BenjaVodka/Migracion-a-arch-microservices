@@ -26,7 +26,7 @@ public class ClienteService {
     }
 
 
-    public void addCliente(Cliente cliente) {
+    public void agregarCliente(Cliente cliente) {
         clienteRepository.agregarCliente(cliente);
     }
 
